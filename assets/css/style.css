@@ -1,14 +1,29 @@
-.header{
-  background:linear-gradient(.25turn, #9370DB, 25%, #4B0082);
+.weather-header{
+  background:linear-gradient(.25turn, #9370DB, 25%, indigo);
+}
+.btn-history {
+  border-radius: 8px;
+  margin-bottom: 5px;
 }
 
-.city-btn{
-  background-color:#4B0082;
-  color:white;
+#search-button {
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px; /* Add rounded corners */
+  margin-top: 8px; /* Add spacing from the search input */
+  width:100%;
 }
 
-.hist-btn {
-  background-color: grey;
-  color:black;
+/* Adjust layout for the search bar */
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  /* align-items: stretch; */
+  margin-bottom: 8px; /* Add spacing at the bottom of the search bar */
+}
+
+/* Ensure search input and button span the full width */
+.form-input,
+.input-group-append{
   width: 100%;
 }
