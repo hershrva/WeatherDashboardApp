@@ -19,7 +19,7 @@ function renderSearchHistory() {
     var btn = document.createElement('button');
     btn.setAttribute('type', 'button');
     btn.setAttribute('aria-controls', 'today forecast');
-    btn.classList.add('history-btn', 'btn-history');
+    btn.classList.add('history-btn', 'btn-history', 'search-btn');
     // `data-search` allows access to city name when click handler is invoked
     btn.setAttribute('data-search', searchHistory[i]);
     btn.textContent = searchHistory[i];
@@ -181,7 +181,6 @@ function fetchCoords(search) {
     });
 }
 function handleSearchFormSubmit(e) {
-  // Don't continue if there is nothing in the search form
   if (!searchInput.value) {
     return;
   }
