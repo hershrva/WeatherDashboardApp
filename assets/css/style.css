@@ -1,0 +1,14 @@
+.header{
+  background:linear-gradient(.25turn, #9370DB, 25%, #4B0082);
+}
+
+.city-btn{
+  background-color:#4B0082;
+  color:white;
+}
+
+.hist-btn {
+  background-color: grey;
+  color:black;
+  width: 100%;
+}
