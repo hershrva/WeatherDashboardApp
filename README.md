@@ -25,7 +25,7 @@ The user can then type any city in the search bar and hit enter or click the sea
 
 
 
-![alt text](Images/Screenshot 2023-09-24 at 6.09.11 PM (2).png)
+![alt text](../Images/Screenshot 2023-09-24 at 6.09.11 PM (2).png)
 
 ## License
 
