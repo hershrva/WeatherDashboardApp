@@ -82,6 +82,7 @@ function renderCurrentWeather(city, weather) {
 // Function to display a forecast card given an object from open weather api
 // daily forecast.
 function renderForecastCard(forecast) {
+  console.log(forecast);
   // variables for data from api
   var iconUrl = `https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`;
   var iconDescription = forecast.weather[0].description;
@@ -140,6 +141,7 @@ function renderForecast(dailyForecast) {
   }
 }
 function renderItems(city, data) {
+  console.log(data);
   renderCurrentWeather(city, data.list[0], data.city.timezone);
   renderForecast(data.list);
 }
