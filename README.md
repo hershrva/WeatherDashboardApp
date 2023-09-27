@@ -7,7 +7,7 @@
 - This allows for a centralized location to keep and research weather for various locations. It saves the locations in the local history to prevent having to go back and forth amongst different ones. 
 - I learned how to traverse an API and render the information received from it.  I learned how to call the API and receive information and what the data might look like from other APIs when a request is sent and the data is received.  
 
-## Table of Contents (Optional)
+## Table of Contents 
 
 - [Installation](#installation)
 - [Usage](#usage)
